@@ -1,0 +1,17 @@
+name: AC1_WIP
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn=1.5.2
+  - matplotlib
+  - scipy
+  - pip
+  - openml=0.15.1
+  - seaborn
+  - pip:
+    - pymfe
+    - ipykernel
